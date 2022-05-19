@@ -1,0 +1,50 @@
+.container {
+  background-color: var(--white);
+}
+
+.header {
+  padding: 50px 24px 30px 24px;
+  background-color: var(--gray-50);
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.headerTopLeft {
+}
+
+.headerTitle {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: var(--gray-900);
+}
+
+.headerSubtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(151, 151, 151, 0.8);
+}
+
+.headerTopRight {
+  padding-top: 8px;
+}
+
+.menuButton {
+  width: 18px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuButtonLine {
+  height: 2px;
+  background-color: var(--orange);
+}
+
+.headerBottom {
+}
