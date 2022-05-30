@@ -1,0 +1,13 @@
+.container {
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+}
+
+.head {
+  height: 90px;
+  background-color: blue;
+}
+
+.info {
+}

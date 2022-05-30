@@ -1,4 +1,7 @@
+import { Banner } from "../../components/Banner";
+import { ProductItem } from "../../components/ProductItem";
 import { SearchInput } from "../../components/SearchInput";
+
 import styles from "../../styles/Home.module.css";
 
 const Home = () => {
@@ -26,6 +29,12 @@ const Home = () => {
           <SearchInput mainColor="#FB9400" onSearch={handleSearch} />
         </div>
       </header>
+      <Banner />
+      <div className={styles.grid}>
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+      </div>
     </div>
   );
 };
