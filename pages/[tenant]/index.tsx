@@ -31,9 +31,61 @@ const Home = () => {
       </header>
       <Banner />
       <div className={styles.grid}>
-        <ProductItem />
-        <ProductItem />
-        <ProductItem />
+        <ProductItem
+          product={{
+            id: 1,
+            image: "/temp/burger.png",
+            categoryName: "Tradicional",
+            name: "Texas Burger",
+            price: "R$ 25,50",
+          }}
+          mainColor="#FB9400"
+          secondColor="#FFF9F2"
+        />
+        <ProductItem
+          product={{
+            id: 2,
+            image: "/temp/burger.png",
+            categoryName: "Tradicional",
+            name: "Texas Burger",
+            price: "R$ 25,50",
+          }}
+          mainColor="#FB9400"
+          secondColor="#FFF9F2"
+        />
+        <ProductItem
+          product={{
+            id: 3,
+            image: "/temp/burger.png",
+            categoryName: "Tradicional",
+            name: "Texas Burger",
+            price: "R$ 25,50",
+          }}
+          mainColor="#FB9400"
+          secondColor="#FFF9F2"
+        />
+        <ProductItem
+          product={{
+            id: 4,
+            image: "/temp/burger.png",
+            categoryName: "Tradicional",
+            name: "Texas Burger",
+            price: "R$ 25,50",
+          }}
+          mainColor="#FB9400"
+          secondColor="#FFF9F2"
+        />
+        <ProductItem
+          product={{
+            id: 5,
+            image: "/temp/burger.png",
+            categoryName: "Tradicional",
+            name: "Texas Burger",
+            price: "R$ 25,50",
+          }}
+          mainColor="#FB9400"
+          secondColor="#FFF9F2"
+        />
       </div>
     </div>
   );
